@@ -10,24 +10,9 @@ LINUX CLI
 		- Alpine
 		- Fedora & CentOS etc...
 	
-RUNNING a Linux
-	docker looks for ubuntu image locally and pulls it from hub if not found. As we didnt interact with the container it stopped.
-		C:\Users\Aashrita\Projects\hello-docker>docker pull ubuntu
-		Using default tag: latest
-		latest: Pulling from library/ubuntu
-		9c704ecd0c69: Pull complete
-		Digest: sha256:2e863c44b718727c860746568e1d54afd13b2fa71b160f5cd9058fc436217b30
-		Status: Downloaded newer image for ubuntu:latest
-		docker.io/library/ubuntu:latest
-	
-	shows list of running containers - this directory
-		C:\Users\Aashrita\Projects\hello-docker>docker ps     
-		CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES   (# no containers running here => ubuntu container has stopped)
-	
-	shows list of running containers anywhere on the machine
-		C:\Users\Aashrita\Projects\hello-docker>docker ps -a
-	
-	to start a container and interact with it - load ubuntu image which we have locally and run it 
+---------- FILES & DIRECTORIES ----------
+
+to start a container and interact with it - load ubuntu image which we have locally and run it 
 		root@42989fcad4c0:/#
 		....
 			we have a shell prompt window here - A shell is a prog that takes user commands and passes to OS for execution
